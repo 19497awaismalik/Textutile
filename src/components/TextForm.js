@@ -80,7 +80,7 @@ document.title='Textutile - Remove Extra Space';
   }).length} Words and {text.length} Characters</p>
   <p >{0.008*(text.split(" ").filter((element)=>{return element.length!==0})).length} Minutes Reads</p>
   <h3 >Preview</h3>
-  <p >{text.length>0?text:"Nothig To Preview"}</p>
+  <p >{text.length>0?text:"Nothing To Preview"}</p>
 </div>
 
     </div>
